@@ -1,0 +1,9 @@
+# Git Ignore
+
+# Examples
+#
+#   /.tmp-file-*
+#   /tmp-dir/*
+#   /symlink*
+#
+sources/

@@ -2,6 +2,11 @@
 # For more information; http://github.com/cmfatih/dockerhub
 #
 # PhantomJS
+#
+# Test
+#   docker run cmfatih/phantomjs /usr/bin/phantomjs -v
+#   docker run cmfatih/phantomjs /usr/bin/casperjs --version
+#   docker run -v `pwd`:/mnt/test cmfatih/phantomjs /usr/bin/casperjs /mnt/test/test.js
 
 # VERSION 0.1.0
 

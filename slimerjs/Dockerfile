@@ -2,6 +2,11 @@
 # For more information; http://github.com/cmfatih/dockerhub
 #
 # SlimerJS
+#
+# Test
+#   docker run cmfatih/slimerjs /usr/bin/slimerjs -v
+#   docker run cmfatih/slimerjs /usr/bin/casperjs | head -n 1
+#   docker run -v `pwd`:/mnt/test cmfatih/slimerjs /usr/bin/casperjs /mnt/test/test.js
 
 # VERSION 0.1.0
 

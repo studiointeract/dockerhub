@@ -2,6 +2,11 @@
 # For more information; http://github.com/cmfatih/dockerhub
 #
 # Node.js
+#
+# Test
+#   docker run cmfatih/nodejs /usr/bin/node -v
+#   docker run cmfatih/nodejs /usr/bin/node -p 'console.log("dockerized!");process.exit(0);'
+#   docker run -v `pwd`:/mnt/test cmfatih/nodejs /usr/bin/node /mnt/test/test.js
 
 # VERSION 0.1.0
 

@@ -2,6 +2,9 @@
 # For more information; http://github.com/cmfatih/dockerhub
 #
 # Ubuntu
+#
+# Test
+#   docker run cmfatih/ubuntu /bin/echo dockerized!
 
 # VERSION 0.1.0
 

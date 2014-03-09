@@ -5,6 +5,10 @@
 ```
 ```
 
+### 0.1.3 (2014-03-08)
+
+* Update for golang (version go1.2.1)
+
 ### 0.1.2 (2014-03-06)
 
 * Dockerfile for golang (with cross compile support)

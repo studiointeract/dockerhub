@@ -8,7 +8,7 @@
 #   docker run cmfatih/slimerjs /usr/bin/casperjs | head -n 1
 #   docker run -v `pwd`:/mnt/test cmfatih/slimerjs /usr/bin/casperjs /mnt/test/test.js
 
-# VERSION 0.1.0
+# VERSION 0.1.1
 
 FROM ubuntu:12.04
 
@@ -16,7 +16,7 @@ MAINTAINER cmfatih
 
 # Env
 ENV SLIMERJS_VERSION_M 0.9
-ENV SLIMERJS_VERSION_F 0.9.0
+ENV SLIMERJS_VERSION_F 0.9.1
 
 # Update package repository
 RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe multiverse" > /etc/apt/sources.list

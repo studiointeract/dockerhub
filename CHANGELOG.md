@@ -5,6 +5,10 @@
 ```
 ```
 
+### 0.1.4 (2014-04-10)
+
+* Update for SlimerJS (v0.9.1)
+
 ### 0.1.3 (2014-03-08)
 
 * Update for golang (version go1.2.1)

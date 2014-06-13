@@ -3,6 +3,7 @@
 ### HEAD
 
 ```
+* Update SlimerJS url.
 ```
 
 ### 0.1.4 (2014-04-10)

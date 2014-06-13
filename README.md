@@ -1,6 +1,6 @@
 ## dockerhub
 
-[dockerhub](http://github.com/cmfatih/dockerhub) is a repository for various [dockerfiles](https://index.docker.io/u/cmfatih/)
+[dockerhub](http://github.com/cmfatih/dockerhub) is a repository for various dockerfiles.
 
 ### Installation
 

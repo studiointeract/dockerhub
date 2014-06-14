@@ -8,7 +8,7 @@
 #   docker run cmfatih/slimerjs /usr/bin/casperjs | head -n 1
 #   docker run -v `pwd`:/mnt/test cmfatih/slimerjs /usr/bin/casperjs /mnt/test/test.js
 
-# VERSION 0.1.1
+# VERSION 0.2.0
 
 FROM ubuntu:12.04
 
@@ -18,12 +18,11 @@ MAINTAINER cmfatih
 ENV SLIMERJS_VERSION_F 0.9.1
 
 # Update package repository
-RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe multiverse" > /etc/apt/sources.list
 RUN apt-get update
 RUN apt-get upgrade -y
 
 # Required packages
-RUN apt-get install -y vim git wget xvfb libxrender-dev libasound2 libdbus-glib-1-2 libgtk2.0-0
+RUN apt-get install -y vim git wget xvfb libxrender-dev libasound2 libdbus-glib-1-2 libgtk2.0-0 bzip2
 
 # Required directories
 RUN mkdir -p /srv/var

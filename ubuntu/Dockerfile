@@ -6,19 +6,18 @@
 # Test
 #   docker run cmfatih/ubuntu /bin/echo dockerized!
 
-# VERSION 0.1.0
+# VERSION 0.2.0
 
 FROM ubuntu:12.04
 
 MAINTAINER cmfatih
 
 # Update package repository
-RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe multiverse" > /etc/apt/sources.list
 RUN apt-get update
 RUN apt-get upgrade -y
 
 # Required packages
-RUN apt-get install -y software-properties-common vim htop zip wget curl git
+RUN apt-get install -y software-properties-common vim htop zip bzip2 wget curl git
 
 # bashrc
 RUN cp -f /root/.bashrc /.bashrc

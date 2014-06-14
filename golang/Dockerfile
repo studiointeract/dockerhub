@@ -7,14 +7,13 @@
 #   docker run cmfatih/golang go version
 #   docker run -v `pwd`:/mnt/test cmfatih/golang /bin/bash -c "source /golang-crosscompile/crosscompile.bash && go-build-all /mnt/test/test.go"
 
-# VERSION 0.1.1
+# VERSION 0.2.0
 
 FROM ubuntu:12.04
 
 MAINTAINER cmfatih
 
 # Update package repository
-RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe multiverse" > /etc/apt/sources.list
 RUN apt-get update
 RUN apt-get upgrade -y
 

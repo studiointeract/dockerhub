@@ -1,10 +1,10 @@
 ## Changelog
 
-### HEAD
+### 0.2.0 (2014-06-14)
 
-```
-* Update SlimerJS url.
-```
+* Remove /etc/apt/sources.list
+* Add bzip2
+* Update SlimerJS url
 
 ### 0.1.4 (2014-04-10)
 

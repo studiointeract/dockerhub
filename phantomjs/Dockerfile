@@ -8,7 +8,7 @@
 #   docker run cmfatih/phantomjs /usr/bin/casperjs --version
 #   docker run -v `pwd`:/mnt/test cmfatih/phantomjs /usr/bin/casperjs /mnt/test/test.js
 
-# VERSION 0.1.0
+# VERSION 0.2.0
 
 FROM ubuntu:12.04
 
@@ -18,12 +18,11 @@ MAINTAINER cmfatih
 ENV PHANTOMJS_VERSION 1.9.7
 
 # Update package repository
-RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe multiverse" > /etc/apt/sources.list
 RUN apt-get update
 RUN apt-get upgrade -y
 
 # Required packages
-RUN apt-get install -y vim git wget libfreetype6 libfontconfig
+RUN apt-get install -y vim git wget libfreetype6 libfontconfig bzip2
 
 # Required directories
 RUN mkdir -p /srv/var

@@ -1,5 +1,9 @@
 ## Changelog
 
+### 0.3.0 (2014-06-20)
+
+* Dockerfile for Emscripten
+
 ### 0.2.0 (2014-06-14)
 
 * Remove /etc/apt/sources.list

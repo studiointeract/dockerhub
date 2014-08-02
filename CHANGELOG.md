@@ -1,5 +1,9 @@
 ## Changelog
 
+### 0.4.0 (2014-08-02)
+
+* Update for Node.js repository
+
 ### 0.3.0 (2014-06-20)
 
 * Dockerfile for Emscripten

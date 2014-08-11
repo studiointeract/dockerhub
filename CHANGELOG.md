@@ -1,5 +1,9 @@
 ## Changelog
 
+### 0.5.0 (2014-08-10)
+
+* Dockerfile for v8
+
 ### 0.4.0 (2014-08-02)
 
 * Update for Node.js repository

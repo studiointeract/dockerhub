@@ -1,5 +1,9 @@
 ## Changelog
 
+### 1.0.0 (2014-08-11)
+
+* Stable release
+
 ### 0.5.0 (2014-08-10)
 
 * Dockerfile for v8

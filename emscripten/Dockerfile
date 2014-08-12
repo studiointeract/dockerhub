@@ -7,7 +7,7 @@
 #   docker run cmfatih/emscripten /srv/var/emscripten/emcc -v
 #   docker run -v `pwd`:/mnt/test cmfatih/emscripten /srv/var/emscripten/emcc /mnt/test/test.cpp -o /mnt/test/test.cpp.js
 
-# VERSION 1.0.0
+# VERSION 1.0.1
 
 FROM ubuntu:12.04
 
@@ -43,6 +43,7 @@ RUN \
   echo "export PATH=$PATH:/srv/var/emscripten:/srv/var/emscripten-fastcomp/build/Release/bin/" >> /root/.bashrc && \
   echo "export LLVM=/srv/var/emscripten-fastcomp/build/Release/bin/" >> /root/.bashrc && \
   cp -f /root/.bashrc /.bashrc && \
+  /srv/var/emscripten/emcc -v && \
   apt-get autoremove -y && \
   apt-get clean all
 

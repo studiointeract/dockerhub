@@ -1,5 +1,10 @@
 ## Changelog
 
+### 1.1.0 (2014-08-13)
+
+* Update v8 and Emscripten
+* Add elasticsearch
+
 ### 1.0.0 (2014-08-11)
 
 * Stable release

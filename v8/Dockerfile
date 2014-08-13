@@ -9,7 +9,7 @@
 #   docker run -v `pwd`:/mnt/test cmfatih/v8 /srv/var/v8/d8 /mnt/test/test.js
 #   docker run -v `pwd`:/mnt/test cmfatih/v8 /srv/var/v8/d8 --print_code /mnt/test/test.js
 
-# VERSION 1.0.0
+# VERSION 1.0.1
 
 FROM ubuntu:12.04
 
@@ -28,18 +28,17 @@ RUN apt-get update && \
     make x64.release -j2 console=readline disassembler=on gdbjit=on liveobjectlist=on && \
     mkdir -p /srv/var/v8 && \
     cp -r /usr/local/v8/out/x64.release/* /srv/var/v8 && \
-    export PATH=$PATH:/srv/var/v8 && \
     cd /srv/var/v8 && \
     rm -rf /usr/local/v8 && \
     rm -rf /usr/local/depot_tools && \
-    echo "export PATH=$PATH:/srv/var/v8" >> /root/.bashrc && \
+    echo "export PATH=$PATH:/srv/var/v8/" >> /root/.bashrc && \
     cp -f /root/.bashrc /.bashrc && \
     apt-get purge -y vim git git-svn subversion make g++ libreadline-dev && \
     apt-get autoremove -y && \
     apt-get clean all
 
 # Env
-ENV PATH $PATH:/srv/var/v8
+ENV PATH $PATH:/srv/var/v8/
 
 # Default command
 CMD ["/srv/var/v8/d8"]

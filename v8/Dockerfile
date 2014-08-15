@@ -7,7 +7,7 @@
 #   docker run cmfatih/v8 /srv/var/v8/d8 -v
 #   docker run cmfatih/v8 /srv/var/v8/d8 --help
 #   docker run -v `pwd`:/mnt/test cmfatih/v8 /srv/var/v8/d8 /mnt/test/test.js
-#   docker run -v `pwd`:/mnt/test cmfatih/v8 /srv/var/v8/d8 --print_code /mnt/test/test.js
+#   docker run -v `pwd`:/mnt/test cmfatih/v8 /srv/var/v8/d8 --print_code --code_comments /mnt/test/test.js
 #   docker run -v `pwd`:/mnt/test cmfatih/v8 /srv/var/v8/d8 -e 'print("hello wold")'
 
 # VERSION 1.0.1

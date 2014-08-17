@@ -1,14 +1,14 @@
 # dockerhub - A repository for various dockerfiles
 # For more information; http://github.com/cmfatih/dockerhub
 #
-# PhantomJS
+# phantomjs
 #
-# Test
+# Usage
 #   docker run cmfatih/phantomjs /usr/bin/phantomjs -v
 #   docker run cmfatih/phantomjs /usr/bin/casperjs --version
 #   docker run -v `pwd`:/mnt/test cmfatih/phantomjs /usr/bin/phantomjs /mnt/test/test.js
 
-# VERSION 1.0.0
+# VERSION 1.0.1
 
 FROM ubuntu:12.04
 

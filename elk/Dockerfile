@@ -3,11 +3,9 @@
 #
 # elk
 #
-# Test
+# Usage
 #   docker run cmfatih/elk elasticsearch -v
 #   docker run cmfatih/elk logstash -V
-#
-#   See http://localhost:12080/ 
 #
 #   docker run -it -p 12080:80 cmfatih/elk
 #   docker run -it -p 12080:80 cmfatih/elk /usr/bin/elk-test
@@ -16,7 +14,7 @@
 #   docker run -it -p 12080:80 cmfatih/elk logstash -e 'input { stdin { } } output { stdout { } }'
 #   docker run -it -p 12080:80 cmfatih/elk /usr/bin/logstash-test
 
-# VERSION 0.1.0
+# VERSION 0.1.1
 
 FROM ubuntu:12.04
 

@@ -1,12 +1,12 @@
 # dockerhub - A repository for various dockerfiles
 # For more information; http://github.com/cmfatih/dockerhub
 #
-# Ubuntu
+# ubuntu
 #
-# Test
+# Usage
 #   docker run cmfatih/ubuntu /bin/echo dockerized!
 
-# VERSION 1.0.0
+# VERSION 1.0.1
 
 FROM ubuntu:12.04
 

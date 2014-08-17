@@ -1,14 +1,14 @@
 # dockerhub - A repository for various dockerfiles
 # For more information; http://github.com/cmfatih/dockerhub
 #
-# SlimerJS
+# slimerjs
 #
-# Test
+# Usage
 #   docker run cmfatih/slimerjs /usr/bin/slimerjs -v
 #   docker run cmfatih/slimerjs /usr/bin/casperjs | head -n 1
 #   docker run -v `pwd`:/mnt/test cmfatih/slimerjs /usr/bin/slimerjs /mnt/test/test.js
 
-# VERSION 1.0.0
+# VERSION 1.0.1
 
 FROM ubuntu:12.04
 

@@ -3,12 +3,12 @@
 #
 # elasticsearch
 #
-# Test
+# Usage
 #   docker run cmfatih/elasticsearch elasticsearch -v
 #   docker run -p 9200:9200 -p 9300:9300 cmfatih/elasticsearch
 #   docker run -p 9200:9200 -p 9300:9300 -v `pwd`:/mnt/data cmfatih/elasticsearch
 
-# VERSION 0.1.0
+# VERSION 0.1.1
 
 FROM ubuntu:12.04
 

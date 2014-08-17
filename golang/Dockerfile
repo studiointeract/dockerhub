@@ -3,11 +3,11 @@
 #
 # golang
 #
-# Test
+# Usage
 #   docker run cmfatih/golang go version
 #   docker run -v `pwd`:/mnt/test cmfatih/golang /bin/bash -c "source /golang-crosscompile/crosscompile.bash && go-build-all /mnt/test/test.go"
 
-# VERSION 1.0.0
+# VERSION 1.0.1
 
 FROM ubuntu:12.04
 

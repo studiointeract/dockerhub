@@ -1,13 +1,13 @@
 # dockerhub - A repository for various dockerfiles
 # For more information; http://github.com/cmfatih/dockerhub
 #
-# Emscripten
+# emscripten
 #
-# Test
+# Usage
 #   docker run cmfatih/emscripten /srv/var/emscripten/emcc -v
 #   docker run -v `pwd`:/mnt/test cmfatih/emscripten /srv/var/emscripten/emcc /mnt/test/test.cpp -o /mnt/test/test.cpp.js
 
-# VERSION 1.0.1
+# VERSION 1.0.2
 
 FROM ubuntu:12.04
 

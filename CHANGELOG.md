@@ -1,5 +1,10 @@
 ## Changelog
 
+### 1.2.0 (2014-08-17)
+
+* Add the ELK stack (Elasticsearch, Logstash and Kibana)
+* Misc. updates
+
 ### 1.1.0 (2014-08-13)
 
 * Update v8 and Emscripten

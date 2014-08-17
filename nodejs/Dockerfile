@@ -1,14 +1,14 @@
 # dockerhub - A repository for various dockerfiles
 # For more information; http://github.com/cmfatih/dockerhub
 #
-# Node.js
+# nodejs
 #
-# Test
+# Usage
 #   docker run cmfatih/nodejs /usr/bin/node -v
 #   docker run cmfatih/nodejs /usr/bin/node -p 'console.log("dockerized!");process.exit(0);'
 #   docker run -v `pwd`:/mnt/test cmfatih/nodejs /usr/bin/node /mnt/test/test.js
 
-# VERSION 1.0.0
+# VERSION 1.0.1
 
 FROM ubuntu:12.04
 

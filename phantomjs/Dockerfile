@@ -34,4 +34,5 @@ RUN \
   apt-get clean all
 
 # Default command
-CMD ["/usr/bin/phantomjs"]
+ENTRYPOINT "phantomjs"
+CMD ["--help"]

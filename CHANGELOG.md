@@ -1,5 +1,9 @@
 ## Changelog
 
+### 1.2.1 (2015-06-16)
+
+* Fix PhantomJS
+
 ### 1.2.0 (2014-08-17)
 
 * Add the ELK stack (Elasticsearch, Logstash and Kibana)

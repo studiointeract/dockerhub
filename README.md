@@ -4,8 +4,6 @@ dockerhub is a repository for various dockerfiles.
 
 ### Containers on [Docker Hub](https://hub.docker.com/u/cmfatih/)
 
-- [elasticsearch](https://registry.hub.docker.com/u/cmfatih/elasticsearch/)
-- [elk](https://registry.hub.docker.com/u/cmfatih/elk/)
 - [emscripten](https://registry.hub.docker.com/u/cmfatih/emscripten/)
 - [golang](https://registry.hub.docker.com/u/cmfatih/golang/)
 - [nodejs](https://registry.hub.docker.com/u/cmfatih/nodejs/)

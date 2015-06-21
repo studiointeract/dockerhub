@@ -1,5 +1,11 @@
 ## Changelog
 
+### 2.0.0 (2015-06-21)
+
+* Remove elasticsearch
+* Remove elk
+* Misc. updates
+
 ### 1.2.1 (2015-06-16)
 
 * Fix PhantomJS
